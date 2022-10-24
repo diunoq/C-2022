@@ -11,7 +11,14 @@ int main(){
 	if(a!=0){
 		cout<<"Miejsce zerowe "<<(-b/a);
 	}
-
+	else{
+		if(b==0){
+			cout<<"Funkcja ma nieskonczenie wiele miejsc zerowych";
+		}
+		else{
+			cout<<"Funkcja nie ma miejsc zerowych";
+		}
+	}
 	
 	return 0;
 }
