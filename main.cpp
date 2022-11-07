@@ -1,9 +1,8 @@
 #include <cmath>
-
 #include <iostream>
 using namespace std;
 int main(){
-	
+
 	int n;
 	float a,b,c,d,x,x1,x2;
 	cout<<"1. Funkcja kwadratowa"<<endl;
@@ -32,6 +31,10 @@ int main(){
 	}
 	}
 	else if(n==2){
+		cout<<"Podaj a > ";
+		cin>>a;
+		cout<<"Podaj b > ";
+		cin>>b;
 		if(a!=0){
 		cout<<"Miejsce zerowe "<<(-b/a);
 	}
